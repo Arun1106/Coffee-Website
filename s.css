@@ -1,0 +1,99 @@
+h1,h2{
+color:brown;
+}
+body
+{
+	margin:0 auto;
+	width:960px;
+	
+}
+
+ul
+{
+list-style-image:url("images/tiny-coffee-cup.gif");
+}
+a:link,a:visited
+{
+text-decoration:none;
+color:brown;
+font-weight:bold;
+}
+a:hover
+{
+color:black;
+}
+
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li{
+	display:inline;
+	float:left;
+}
+
+nav a:link,nav a:visited
+{
+	background-color:brown;
+	color:white;
+	display:block;
+	text-align:center;
+	width:160px;
+	padding:10px 0;
+}
+nav a:hover
+{
+background-color:black;
+}
+aside
+{
+	width:280px;
+	float:right;
+	background-color:tan;
+	text-align:center;
+	font-weight:bold;
+	padding:20px;
+}
+.pl{
+	float:left;
+	margin-right:20px;
+}
+.pr{
+	float:right;
+	margin-left:20px;
+}
+header
+{
+	background-image:url("images/coffee-beans.jpg");
+	height:100px;
+	margin-border:70px;
+	
+}
+footer
+{
+	margin:40px 0;
+}
+footer nav a:visited,footer nav a:link{
+	color:grey;
+	display:block;
+	text-align:center;
+	width:160px;
+	background-color:white;
+}
+footer nav a:hover
+{
+background-color:black;
+}
+td,th
+{
+	border:1px solid black;
+	width:20%;
+	text-align:center;
+	padding:5px;
+}
+table{
+	border-collapse:collapse;
+}
+
+
+
